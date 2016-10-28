@@ -1,0 +1,214 @@
+@charset "utf-8";
+/*重置*/
+body{ margin:0;}
+a{ text-decoration:none;}
+img{border:none;display:block;}
+*{font-size:12px;font-family:"微软雅黑";color:#646464;}
+dl,dt,dd,li,ul{display:block; margin:0;}
+/*这里是开头*/
+	.header{
+		overflow:hidden;}
+	
+	.rexian{
+		width:928px;
+		margin:auto;}
+	.rexian a{ float:right; 
+	line-height:30px;
+	margin-top:40px;
+	margin-left:200px;}	
+	.H_box{ width:928px; 
+			margin:auto;
+			overflow:hidden;
+			}
+						  
+	.H_box img{ float:left; 
+				margin-top:5px;
+				}
+				
+				
+	.H_box dl{ float:left;
+	            margin-top:31px;
+				}
+				
+	.H_box ul{
+	    margin-top:30px;}			
+	.H_box li{
+	            color:#f6215c; 
+				line-height:20px; 
+				font-size:14px; 
+				font-weight:bold;
+				text-align:right;
+				}
+				
+.link_top{
+	position:absolute;
+	position:fixed;
+	top:150px;
+	left:0px;
+	width:136px;
+	height:443px;
+	background:"./img_01/link1.jpg";
+	z-index:100;
+
+}			
+				
+/*banner*/
+
+	.banner img{ margin:auto;
+	}
+	
+/*content*/
+	.C_box {
+	overflow:hidden;
+	width:950px;
+	margin:auto;
+	width:950px;
+			}
+			
+			
+    .C_box dl{
+	float:none;
+	margin-right:0px;
+	margin-top:0px;
+			   }
+			   
+			   
+	.jiange{ margin-top:18px;
+	
+	}
+	
+	
+	
+/*wei-nav*/
+
+	.wei_nav{
+	height:60px;
+	background-image:url("beijing_shu.png")/*tpa=http://qxw1649470219.my3w.com/img_01/beijing_shu.png*/;
+	margin:10px 0;
+}
+
+	.W_box{ width:750px; 
+			margin:auto; 
+			
+			overflow:hidden;
+			}
+	.W_box dl{
+	float:none;
+	padding-top:10px;
+}
+	.W_box img{ float:right;}		
+			
+	.jiada{ font-size:24px; 
+			color:#323232;
+			}
+
+     .tiao_box{
+	width:780px;
+	margin:auto;
+	overflow:hidden;
+	clear: none;
+	float: none;
+				
+				}
+	 .tiao_box img{ float:left; 
+	 				margin-right:20px;
+					}
+					
+					
+	 .nav{
+	float:none;
+	margin-right:auto;
+	margin-top:auto;
+			
+			}
+			
+			
+	 .nav dl{ padding-top:45px;
+	 		}
+			
+	 .ma{
+	padding-top:10px;
+	 }
+	 
+	 /*footer*/
+	 .footer{ width:990px; 
+	 		  margin:auto; 
+			  overflow:hidden; 
+			  margin-top:40px; 
+			  background-image:url("yewei_tiao.png")/*tpa=http://qxw1649470219.my3w.com/css/img_01/yewei_tiao.png*/; 
+			  height:220px;
+			  	}
+				
+				
+	 .img_box{ overflow:hidden; 
+	 			padding-top:40px;
+				
+			}
+			
+			
+	 .img_box img{ float:left; 
+	 				margin-left:60px;
+					}
+					
+					
+	 .zi_box dl{ float:left; 
+	 			 margin-left:61px; 
+				 font-size:14px; 
+				 width:70px; 
+				 font-weight:bold; 
+				 margin-top:10px;
+				 }
+				 
+				 
+	 .img_B img{ float:left; 
+	 			margin-left:58px; 
+				margin-top:14px;
+				}
+				
+				
+	 .footer_box{
+		 margin-top:20px;
+		 }
+	 .footer_box img{ display:block; 
+	 				  margin:auto;
+					  }
+					  
+	 .meiti_box{
+		 width:1000px;
+		 margin:auto;
+		 margin-top:15px;
+		  background-color:#e3e3e3;
+		  }	
+		 
+		 
+	.meiti_box p{ font-size:34px; 
+		text-align:center; 
+		font-weight:bold; 
+		color:#F00; 
+		padding:0px; 
+		margin:0px; 
+		line-height:76px;
+		}
+		
+		
+			 			  
+	 .meiti{ overflow:hidden;
+	 }
+	 
+	 .meiti a{ margin-left:12px;
+	  margin-top:10px;
+	  }
+	 
+	 .meiti_a{ float:left;}	
+	 .xinwen{ overflow:hidden;
+	  margin:auto;}	
+	  			 
+	.xinwen a{ display:block;
+		margin-top:20px; 
+		float:left;
+		 padding-left:60px;
+		 text-align:center;
+		 font-size:16px;
+		  color:#000;
+		  line-height:30px;}
+	 /* CSS Document */
